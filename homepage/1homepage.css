@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:aquamarine;
+  padding: 10px;
+}
+
+nav h4 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.dog-logo {
+  margin-right: 20px;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Header Styling */
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.Dog-home {
+  display: block;
+  margin: 20px auto;
+}
+
+/* About Section Styling */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 50%;
+  padding: 20px;
+}
+
+.dog-mini-pic {
+  display: block;
+  margin: 20px auto;
+}
+
+/* Contact Section Styling */
+#w3-contact {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+#w3-contact h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  font-size: 14px;
+}
+body {background-color: darkslategrey;
+	color: aqua;
+	text-align: center
+		
+}
+
+
